@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		240F26164B41467AACD03956 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ABA895849692471098711792 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				7EC806442648308A9AF425DC /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				6165C6B370734B348D1D3BBA /* PBXTargetDependency */,
+				8C13393BBF9047FFAD7F95F4 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B708E67F85A14005B38CEF5A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4EC50CFE2EED43C9B78EBEAD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0C8A20139D0897FEB0CCDBDC /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A20D73DE0464B7EA1F72936 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_averages_and_directions.cpp */ = {isa = PBXBuildFile; fileRef = CFEBB98D53C34318BACAEEA7 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_averages_and_directions.cpp */; };
+		0C9E97B568D346338E26CA6C /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_partition_tables.cpp */ = {isa = PBXBuildFile; fileRef = 7D706C89D5544FFC87BB9600 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_partition_tables.cpp */; };
+		1D00E12A80704FDDAC129668 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_mathlib.cpp */ = {isa = PBXBuildFile; fileRef = 47EDAB3522E44390990E43D4 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_mathlib.cpp */; };
+		20E12E3F4CFE41F68287F4FF /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_platform_isa_detection.cpp */ = {isa = PBXBuildFile; fileRef = D8D845AA308247499960E98F /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_platform_isa_detection.cpp */; };
+		28412B299BA64F5080DEFD8A /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_weight_align.cpp */ = {isa = PBXBuildFile; fileRef = 9E09DA11159544C98CFD964B /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_weight_align.cpp */; };
+		2B5A7C0CF4CB4F40B6C99752 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_pick_best_endpoint_format.cpp */ = {isa = PBXBuildFile; fileRef = 30EDB31CC9BE4D008D70D9A0 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_pick_best_endpoint_format.cpp */; };
+		3E18E0E449BA423CAB083345 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_block_sizes.cpp */ = {isa = PBXBuildFile; fileRef = 8BA30DA03C2246AB95642ECB /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_block_sizes.cpp */; };
+		5023F71D716B4E41A6A58619 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_decompress_symbolic.cpp */ = {isa = PBXBuildFile; fileRef = 587F36012517443A8F1FC189 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_decompress_symbolic.cpp */; };
+		50ADC0E58E6D45AEAE6FDF74 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_diagnostic_trace.cpp */ = {isa = PBXBuildFile; fileRef = 109A6739FBF54B7996C1BFD5 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_diagnostic_trace.cpp */; };
+		66473468D67E454D8CE4294C /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_compute_variance.cpp */ = {isa = PBXBuildFile; fileRef = 2506DA8B237B49C8952FFB58 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_compute_variance.cpp */; };
+		739F868A86C44444B007CD77 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_quantization.cpp */ = {isa = PBXBuildFile; fileRef = A30123CA36B24E7EB2FC572C /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_quantization.cpp */; };
+		75E0EDF36FE94BF7A3BC9BC9 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_weight_quant_xfer_tables.cpp */ = {isa = PBXBuildFile; fileRef = FF7E2DC99F1D4AACA802EAA1 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_weight_quant_xfer_tables.cpp */; };
+		7EBD68A7FA5E43FDB8795CD7 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_ideal_endpoints_and_weights.cpp */ = {isa = PBXBuildFile; fileRef = E443B84955224E5680897371 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_ideal_endpoints_and_weights.cpp */; };
+		9363810D1FB54F0288342E77 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 730C92C185C148EC8F2E2738 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/CMakeLists.txt */; };
+		9D87AB8A50554864BA2BF386 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_integer_sequence.cpp */ = {isa = PBXBuildFile; fileRef = D34F11C6EAD14EBE9B4B9086 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_integer_sequence.cpp */; };
+		A0648832BE5747858CDA7463 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_entry.cpp */ = {isa = PBXBuildFile; fileRef = B153B0B99D02486395EFE17B /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_entry.cpp */; };
+		A271236E0C6944D9A8FCAB34 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_find_best_partitioning.cpp */ = {isa = PBXBuildFile; fileRef = 9E3D482D4F4F4932B0ABB4CF /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_find_best_partitioning.cpp */; };
+		A2D71CB9B425403D93FCED0D /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_image.cpp */ = {isa = PBXBuildFile; fileRef = E0F0678831E44B1A8C51988E /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_image.cpp */; };
+		A319934E26A14C3C9000305E /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_symbolic_physical.cpp */ = {isa = PBXBuildFile; fileRef = 3C834070799A45A18CF48864 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_symbolic_physical.cpp */; };
+		A3E3E15DB0514417B4176C71 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_color_unquantize.cpp */ = {isa = PBXBuildFile; fileRef = 7FCD5B0BE0754759BA30350D /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_color_unquantize.cpp */; };
+		AB6953DE13E44010A6245D1C /* /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/CMakeFiles/astc.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 758EC5E182664E9892E69883 /* /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/CMakeFiles/astc.dir/Info.plist */; };
+		C5F50FF0363C4E69BD7D4DFE /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_compress_symbolic.cpp */ = {isa = PBXBuildFile; fileRef = 7256A5C2BC9C423AA4D01B25 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_compress_symbolic.cpp */; };
+		F196B55FF4BD416295090A8D /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_percentile_tables.cpp */ = {isa = PBXBuildFile; fileRef = 0CA6E79B95EB450CB1C21C79 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_percentile_tables.cpp */; };
+		F1FD3F19AE924055A8D4EED2 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_color_quantize.cpp */ = {isa = PBXBuildFile; fileRef = 082CB89063A74E3CA0D92BAB /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_color_quantize.cpp */; };
+		F820343A8DC14618A235D4E4 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_mathlib_softfloat.cpp */ = {isa = PBXBuildFile; fileRef = 6BB36522DBB646ADB9277828 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_mathlib_softfloat.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		098F4EE6F88E4EE589F6BE33 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6E98D437B24D4D55AEAEEB3D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		80DC043A7968400F90CF1C03 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C6E7702BFD4746B99D65B567 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		412DFA0FDFB34D0A8A81EE99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7511DEFF5CEB4854AA16C0A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED74E2B121E4AF4813087DA;
+			remoteInfo = astc;
+		};
+		747E12EC3C384D2FBD5B784F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7511DEFF5CEB4854AA16C0A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B708E67F85A14005B38CEF5A;
+			remoteInfo = ZERO_CHECK;
+		};
+		8CD391F549674C8F81B0CE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7511DEFF5CEB4854AA16C0A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B708E67F85A14005B38CEF5A;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A67CC0F5FB414DB31B1A71 /* astc */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libastc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		082CB89063A74E3CA0D92BAB /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_color_quantize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_color_quantize.cpp; path = astcenc_color_quantize.cpp; sourceTree = SOURCE_ROOT; };
+		0CA6E79B95EB450CB1C21C79 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_percentile_tables.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_percentile_tables.cpp; path = astcenc_percentile_tables.cpp; sourceTree = SOURCE_ROOT; };
+		109A6739FBF54B7996C1BFD5 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_diagnostic_trace.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_diagnostic_trace.cpp; path = astcenc_diagnostic_trace.cpp; sourceTree = SOURCE_ROOT; };
+		2506DA8B237B49C8952FFB58 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_compute_variance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_compute_variance.cpp; path = astcenc_compute_variance.cpp; sourceTree = SOURCE_ROOT; };
+		30EDB31CC9BE4D008D70D9A0 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_pick_best_endpoint_format.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_pick_best_endpoint_format.cpp; path = astcenc_pick_best_endpoint_format.cpp; sourceTree = SOURCE_ROOT; };
+		3C834070799A45A18CF48864 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_symbolic_physical.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_symbolic_physical.cpp; path = astcenc_symbolic_physical.cpp; sourceTree = SOURCE_ROOT; };
+		47EDAB3522E44390990E43D4 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_mathlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_mathlib.cpp; path = astcenc_mathlib.cpp; sourceTree = SOURCE_ROOT; };
+		587F36012517443A8F1FC189 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_decompress_symbolic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_decompress_symbolic.cpp; path = astcenc_decompress_symbolic.cpp; sourceTree = SOURCE_ROOT; };
+		6BB36522DBB646ADB9277828 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_mathlib_softfloat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_mathlib_softfloat.cpp; path = astcenc_mathlib_softfloat.cpp; sourceTree = SOURCE_ROOT; };
+		7256A5C2BC9C423AA4D01B25 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_compress_symbolic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_compress_symbolic.cpp; path = astcenc_compress_symbolic.cpp; sourceTree = SOURCE_ROOT; };
+		730C92C185C148EC8F2E2738 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		758EC5E182664E9892E69883 /* /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/CMakeFiles/astc.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../../ios-build/engine/external/astc/CMakeFiles/astc.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		7D706C89D5544FFC87BB9600 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_partition_tables.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_partition_tables.cpp; path = astcenc_partition_tables.cpp; sourceTree = SOURCE_ROOT; };
+		7FCD5B0BE0754759BA30350D /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_color_unquantize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_color_unquantize.cpp; path = astcenc_color_unquantize.cpp; sourceTree = SOURCE_ROOT; };
+		8BA30DA03C2246AB95642ECB /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_block_sizes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_block_sizes.cpp; path = astcenc_block_sizes.cpp; sourceTree = SOURCE_ROOT; };
+		9E09DA11159544C98CFD964B /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_weight_align.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_weight_align.cpp; path = astcenc_weight_align.cpp; sourceTree = SOURCE_ROOT; };
+		9E3D482D4F4F4932B0ABB4CF /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_find_best_partitioning.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_find_best_partitioning.cpp; path = astcenc_find_best_partitioning.cpp; sourceTree = SOURCE_ROOT; };
+		A30123CA36B24E7EB2FC572C /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_quantization.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_quantization.cpp; path = astcenc_quantization.cpp; sourceTree = SOURCE_ROOT; };
+		B153B0B99D02486395EFE17B /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_entry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_entry.cpp; path = astcenc_entry.cpp; sourceTree = SOURCE_ROOT; };
+		B777B225A5E2449FBEEFBAA6 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CFEBB98D53C34318BACAEEA7 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_averages_and_directions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_averages_and_directions.cpp; path = astcenc_averages_and_directions.cpp; sourceTree = SOURCE_ROOT; };
+		D34F11C6EAD14EBE9B4B9086 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_integer_sequence.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_integer_sequence.cpp; path = astcenc_integer_sequence.cpp; sourceTree = SOURCE_ROOT; };
+		D8D845AA308247499960E98F /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_platform_isa_detection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_platform_isa_detection.cpp; path = astcenc_platform_isa_detection.cpp; sourceTree = SOURCE_ROOT; };
+		E0F0678831E44B1A8C51988E /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_image.cpp; path = astcenc_image.cpp; sourceTree = SOURCE_ROOT; };
+		E443B84955224E5680897371 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_ideal_endpoints_and_weights.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_ideal_endpoints_and_weights.cpp; path = astcenc_ideal_endpoints_and_weights.cpp; sourceTree = SOURCE_ROOT; };
+		FF7E2DC99F1D4AACA802EAA1 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_weight_quant_xfer_tables.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = astcenc_weight_quant_xfer_tables.cpp; path = astcenc_weight_quant_xfer_tables.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EA13D0E7CE8481F9556A294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F2D45D60584086821615DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		257A7EF828D84F6B8B03C43D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				758EC5E182664E9892E69883 /* /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/CMakeFiles/astc.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		526DC521C34B4C918F46D3C5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFEBB98D53C34318BACAEEA7 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_averages_and_directions.cpp */,
+				8BA30DA03C2246AB95642ECB /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_block_sizes.cpp */,
+				082CB89063A74E3CA0D92BAB /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_color_quantize.cpp */,
+				7FCD5B0BE0754759BA30350D /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_color_unquantize.cpp */,
+				7256A5C2BC9C423AA4D01B25 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_compress_symbolic.cpp */,
+				2506DA8B237B49C8952FFB58 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_compute_variance.cpp */,
+				587F36012517443A8F1FC189 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_decompress_symbolic.cpp */,
+				109A6739FBF54B7996C1BFD5 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_diagnostic_trace.cpp */,
+				B153B0B99D02486395EFE17B /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_entry.cpp */,
+				9E3D482D4F4F4932B0ABB4CF /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_find_best_partitioning.cpp */,
+				E443B84955224E5680897371 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_ideal_endpoints_and_weights.cpp */,
+				E0F0678831E44B1A8C51988E /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_image.cpp */,
+				D34F11C6EAD14EBE9B4B9086 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_integer_sequence.cpp */,
+				47EDAB3522E44390990E43D4 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_mathlib.cpp */,
+				6BB36522DBB646ADB9277828 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_mathlib_softfloat.cpp */,
+				7D706C89D5544FFC87BB9600 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_partition_tables.cpp */,
+				0CA6E79B95EB450CB1C21C79 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_percentile_tables.cpp */,
+				30EDB31CC9BE4D008D70D9A0 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_pick_best_endpoint_format.cpp */,
+				D8D845AA308247499960E98F /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_platform_isa_detection.cpp */,
+				A30123CA36B24E7EB2FC572C /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_quantization.cpp */,
+				3C834070799A45A18CF48864 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_symbolic_physical.cpp */,
+				9E09DA11159544C98CFD964B /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_weight_align.cpp */,
+				FF7E2DC99F1D4AACA802EAA1 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_weight_quant_xfer_tables.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6C5D6AB8E36A415A830D81EC = {
+			isa = PBXGroup;
+			children = (
+				DCD5651A45FC4EA18663D1F0 /* astc */,
+				A9C5187B966D43038FFB0060 /* ALL_BUILD */,
+				9EE687ADE9C149BD8BEF8804 /* Products */,
+				13F2D45D60584086821615DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9EE687ADE9C149BD8BEF8804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02A67CC0F5FB414DB31B1A71 /* astc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C5187B966D43038FFB0060 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE4E5C86A04595ADED485A /* CMake Rules */,
+				B777B225A5E2449FBEEFBAA6 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		BBEE4E5C86A04595ADED485A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DCD5651A45FC4EA18663D1F0 /* astc */ = {
+			isa = PBXGroup;
+			children = (
+				526DC521C34B4C918F46D3C5 /* Source Files */,
+				257A7EF828D84F6B8B03C43D /* Resources */,
+				730C92C185C148EC8F2E2738 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/CMakeLists.txt */,
+			);
+			name = astc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED74E2B121E4AF4813087DA /* astc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197A928124E6411F9C9CBBF7 /* Build configuration list for PBXNativeTarget "astc" */;
+			buildPhases = (
+				097E27B317F44B0387E2B191 /* Sources */,
+				4EA13D0E7CE8481F9556A294 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				343CA147EC0B4CC1BBD4647F /* PBXTargetDependency */,
+			);
+			name = astc;
+			productName = astc;
+			productReference = 02A67CC0F5FB414DB31B1A71 /* astc */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7511DEFF5CEB4854AA16C0A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = D9B126EDDC104F31A1E97B68 /* Build configuration list for PBXProject "astc" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				80DC043A7968400F90CF1C03 /* Debug */,
+				098F4EE6F88E4EE589F6BE33 /* Release */,
+				C6E7702BFD4746B99D65B567 /* MinSizeRel */,
+				6E98D437B24D4D55AEAEEB3D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 6C5D6AB8E36A415A830D81EC;
+			projectDirPath = ../../../../cocos2d/external/astc;
+			projectRoot = "";
+			targets = (
+				240F26164B41467AACD03956 /* ALL_BUILD */,
+				B708E67F85A14005B38CEF5A /* ZERO_CHECK */,
+				8ED74E2B121E4AF4813087DA /* astc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C8A20139D0897FEB0CCDBDC /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc
+  make -f /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc
+  make -f /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc
+  make -f /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc
+  make -f /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7EC806442648308A9AF425DC /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		097E27B317F44B0387E2B191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A20D73DE0464B7EA1F72936 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_averages_and_directions.cpp */,
+				3E18E0E449BA423CAB083345 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_block_sizes.cpp */,
+				F1FD3F19AE924055A8D4EED2 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_color_quantize.cpp */,
+				A3E3E15DB0514417B4176C71 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_color_unquantize.cpp */,
+				C5F50FF0363C4E69BD7D4DFE /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_compress_symbolic.cpp */,
+				66473468D67E454D8CE4294C /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_compute_variance.cpp */,
+				5023F71D716B4E41A6A58619 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_decompress_symbolic.cpp */,
+				50ADC0E58E6D45AEAE6FDF74 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_diagnostic_trace.cpp */,
+				A0648832BE5747858CDA7463 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_entry.cpp */,
+				A271236E0C6944D9A8FCAB34 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_find_best_partitioning.cpp */,
+				7EBD68A7FA5E43FDB8795CD7 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_ideal_endpoints_and_weights.cpp */,
+				A2D71CB9B425403D93FCED0D /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_image.cpp */,
+				9D87AB8A50554864BA2BF386 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_integer_sequence.cpp */,
+				1D00E12A80704FDDAC129668 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_mathlib.cpp */,
+				F820343A8DC14618A235D4E4 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_mathlib_softfloat.cpp */,
+				0C9E97B568D346338E26CA6C /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_partition_tables.cpp */,
+				F196B55FF4BD416295090A8D /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_percentile_tables.cpp */,
+				2B5A7C0CF4CB4F40B6C99752 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_pick_best_endpoint_format.cpp */,
+				20E12E3F4CFE41F68287F4FF /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_platform_isa_detection.cpp */,
+				739F868A86C44444B007CD77 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_quantization.cpp */,
+				A319934E26A14C3C9000305E /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_symbolic_physical.cpp */,
+				28412B299BA64F5080DEFD8A /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_weight_align.cpp */,
+				75E0EDF36FE94BF7A3BC9BC9 /* /Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/astcenc_weight_quant_xfer_tables.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		343CA147EC0B4CC1BBD4647F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B708E67F85A14005B38CEF5A /* ZERO_CHECK */;
+			targetProxy = 8CD391F549674C8F81B0CE89 /* PBXContainerItemProxy */;
+		};
+		6165C6B370734B348D1D3BBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ED74E2B121E4AF4813087DA /* astc */;
+			targetProxy = 412DFA0FDFB34D0A8A81EE99 /* PBXContainerItemProxy */;
+		};
+		8C13393BBF9047FFAD7F95F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B708E67F85A14005B38CEF5A /* ZERO_CHECK */;
+			targetProxy = 747E12EC3C384D2FBD5B784F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04B730A3F00041EAA1F9EAD8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/build";
+			};
+			name = MinSizeRel;
+		};
+		14D581CAB3154E2C869F3180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'ASTCENC_NEON=0'","'ASTCENC_SSE=0'","'ASTCENC_AVX=0'","'ASTCENC_POPCNT=0'","'ASTCENC_F16C=0'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = astc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		18019B662DD048ACB6B94505 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		27D37609B1A24046A28F10DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'ASTCENC_NEON=0'","'ASTCENC_SSE=0'","'ASTCENC_AVX=0'","'ASTCENC_POPCNT=0'","'ASTCENC_F16C=0'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = astc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		28F3459135CB4E1A889D82AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/build";
+			};
+			name = Debug;
+		};
+		485CCF752C174ACC9EDB140A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/build";
+			};
+			name = RelWithDebInfo;
+		};
+		4C17384DBF114051BC3AFA4F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6C14A624FC484F9785019FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc/build";
+			};
+			name = Release;
+		};
+		778662C7E76B4CA0B88AA903 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		863E7E9470AA43E48AE7B1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8FCF831D05C444BA8AAFC3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B045C6535BC04331AA7FDAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B72C09488CD3486FB1A5579F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B73EA011FA5E42D29B14A203 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'ASTCENC_NEON=0'","'ASTCENC_SSE=0'","'ASTCENC_AVX=0'","'ASTCENC_POPCNT=0'","'ASTCENC_F16C=0'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = astc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BD5E3C27CB8A4D4A85F30C86 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'ASTCENC_NEON=0'","'ASTCENC_SSE=0'","'ASTCENC_AVX=0'","'ASTCENC_POPCNT=0'","'ASTCENC_F16C=0'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wangjunpeng/Documents/Work/HelloAnother/cocos2d/external/astc/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = astc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E2ABFABFCC9C4533BD4703B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wangjunpeng/Documents/Work/HelloAnother/ios-build/engine/external/astc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		197A928124E6411F9C9CBBF7 /* Build configuration list for PBXNativeTarget "astc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D581CAB3154E2C869F3180 /* Debug */,
+				27D37609B1A24046A28F10DA /* Release */,
+				B73EA011FA5E42D29B14A203 /* MinSizeRel */,
+				BD5E3C27CB8A4D4A85F30C86 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4EC50CFE2EED43C9B78EBEAD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2ABFABFCC9C4533BD4703B4 /* Debug */,
+				8FCF831D05C444BA8AAFC3BC /* Release */,
+				4C17384DBF114051BC3AFA4F /* MinSizeRel */,
+				778662C7E76B4CA0B88AA903 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ABA895849692471098711792 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863E7E9470AA43E48AE7B1CB /* Debug */,
+				B045C6535BC04331AA7FDAD1 /* Release */,
+				B72C09488CD3486FB1A5579F /* MinSizeRel */,
+				18019B662DD048ACB6B94505 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D9B126EDDC104F31A1E97B68 /* Build configuration list for PBXProject "astc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F3459135CB4E1A889D82AC /* Debug */,
+				6C14A624FC484F9785019FBF /* Release */,
+				04B730A3F00041EAA1F9EAD8 /* MinSizeRel */,
+				485CCF752C174ACC9EDB140A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7511DEFF5CEB4854AA16C0A2 /* Project object */;
+}
